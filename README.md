@@ -14,7 +14,6 @@ Copy, move, and delete files using window's build in copy dialog (with progress 
 
 ```python
 In [1]: import winutils
-
 In [2]: winutils.copy(src=r'C:\Users\jrm\Downloads\bitnami-gitlab-6.4.3-1-linux-x64-installer.run',dst=r'C:\Users\jrm\Desktop')
 Out[2]: True
 

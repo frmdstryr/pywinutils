@@ -9,7 +9,7 @@ Copy, move, and delete files using window's built in copy dialogs (with progress
 
 [pywin32](http://www.lfd.uci.edu/~gohlke/pythonlibs/#pywin32) >= 218.4 
 
-_Note: the version from Sourceforge will not work_
+> Note: the version from Sourceforge will not work
 
 
 ### Usage ###

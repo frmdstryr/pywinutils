@@ -1,7 +1,7 @@
 pywinutils
 ==========
 
-Copy, move, and delete files using window's build in copy dialog (with progress window).
+Copy, move, and delete files using window's built in copy dialogs (with progress window).
 
 
 ### Requires ###

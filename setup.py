@@ -14,6 +14,7 @@ setup(
     version="0.1",
     author="frmdstryr",
     author_email="frmdstryr@gmail.com",
+    license='MIT',
     url='http://github.com/frmdstryr/pywinutils',
     description="Copy move and delete files using the built in Window's progress dialog",
     long_description=open("README.MD").read(),

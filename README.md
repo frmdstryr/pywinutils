@@ -12,6 +12,12 @@ Copy, move, and delete files using window's built in copy dialogs (with progress
 > Note: the version from Sourceforge will not work
 
 
+### Installing ###
+
+Install with pip
+
+`pip install pywinutils`
+
 ### Usage ###
 
 ```python

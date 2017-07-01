@@ -1,3 +1,11 @@
+'''
+Created on May 31, 2016
+
+@author: frmdstryr
+@copyright: frmdstryr@gmail.com
+@license: MIT
+
+'''
 import pythoncom
 from win32com.shell import shell,shellcon
 

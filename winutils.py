@@ -20,18 +20,16 @@ def _file_operation(src,dst=None,operation='copy',flags=shellcon.FOF_NOCONFIRMAT
     if not isinstance(src,(tuple,list)):
         src = (src,)
 
+    if dst is not None:
+        # Set the destination folder
+        dst = shell.SHCreateItemFromParsingName(dst,None,shell.IID_IShellItem)
+
     for f in src:
         item = shell.SHCreateItemFromParsingName(f,None,shell.IID_IShellItem)
         op = operation.strip().lower()
         if op=='copy':
-            # Set the destionation folder
-            dst = shell.SHCreateItemFromParsingName(dst,None,shell.IID_IShellItem)
-
             pfo.CopyItem(item,dst) # Schedule an operation to be performed
         elif op=='move':
-            # Set the destionation folder
-            dst = shell.SHCreateItemFromParsingName(dst,None,shell.IID_IShellItem)
-            
             pfo.MoveItem(item,dst)
         elif op=='delete':
             pfo.DeleteItem(item)

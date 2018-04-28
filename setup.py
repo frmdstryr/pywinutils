@@ -17,7 +17,7 @@ setup(
     license='MIT',
     url='http://github.com/frmdstryr/pywinutils',
     description="Copy move and delete files using the built in Window's progress dialog",
-    long_description=open("README.MD").read(),
+    long_description=open("README.md").read(),
     py_modules=['winutils'],
     requires=['pywin32'],
     install_requires=['pywin32 >= 218'],
